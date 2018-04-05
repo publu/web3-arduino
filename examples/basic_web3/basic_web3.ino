@@ -8,7 +8,7 @@
 #define INFURA_HOST "rinkeby.infura.io"
 #define INFURA_PATH "/<YOUR_INFURA_ID>"
 
-Web3 web3(INFURA_HOST, INFURA_PATH);
+Web3 web3((string *)INFURA_HOST, (string *)INFURA_PATH);
 
 void web3_example();
 
